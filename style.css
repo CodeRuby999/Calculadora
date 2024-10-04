@@ -1,14 +1,32 @@
-.encabezado{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+.titulo{
+    margin-top: 40px;
 }
 
 
-.container{
+
+.contenedor{
     display: flex;
-    margin: 200px auto;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 100px auto 0;
+    width: 300px;
+    height: 430px;
+    padding: 35px;
+    background-color: rgb(69, 68, 70);
+    border-radius: 10px;
     }
 
 .signo{
     padding: 8px 19px !important;
 }
+
+.pantalla-cal{
+    width: 224px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(184, 183, 183);
+}
+
+

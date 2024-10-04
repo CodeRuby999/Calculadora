@@ -10,41 +10,49 @@
 <body>
 
     <head>
-        <h1 class="text-center">Calculadora</h1>    
+        <h1 class="text-center titulo">Calculadora Estandar</h1>
     </head>
-    
-    <main class="container"> 
+    <main class="contenedor border"> 
+        
         <table class="row">
             <div class="col-5">
+                <tr>
+                    <td colspan="4"><input class="pantalla-cal border" type="text" id="mostrar" ></td>
+                </tr>
 
                 <tr>
-                    <td><button class="btn btn-secondary m-1 btn-lg">7</button></td>
-                    <td><button class="btn btn-secondary m-1 btn-lg">8</button class="btn btn-secondary m-1 btn-lg"></td>
-                        <td><button class="btn btn-secondary m-1 btn-lg">9</button></td>
-                    <td class="btn btn-dark m-1 btn-lg"> + </td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-7" value="7">7</button></td>
+
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-8" value="8">8</button></td>
+
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-9" value="9">9</button></td>
+
+                    <td> <button class="btn btn-dark m-1 btn-lg" id="suma" value="+"> + </button></td>
                 </tr>
             
                 <tr>
-                    <td><button class="btn btn-secondary m-1 btn-lg">4</button></td>
-                    <td><button class="btn btn-secondary m-1 btn-lg">5</button></td>
-                    <td><button class="btn btn-secondary m-1 btn-lg">6</button></td>
-                    <td class="btn btn-dark m-1 btn-lg signo"> - </td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-4" value="4">4</button></td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-5" value="5">5</button></td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-6" value="6">6</button></td>
+                    <td> <button class="btn btn-dark m-1 btn-lg signo" id="resta" value="-"> - </button></td>
                 </tr>
                 
                 <tr>
-                    <td><button class="btn btn-secondary m-1 btn-lg">1</button></td>
-                    <td><button class="btn btn-secondary m-1 btn-lg">2</button></td>
-                    <td><button class="btn btn-secondary m-1 btn-lg">3</button></td>
-                    <td class="btn btn-dark m-1 btn-lg signo"> x </td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" value="1"
+                    >1</button></td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-2" value="2"   >2</button></td>
+                    <td><button class="btn btn-secondary m-1 btn-lg" id="numero-3" value="3">3</button></td>
+                    <td> <button class="btn btn-dark m-1 btn-lg signo" id="multiplicacion" value="x"> x </button></td>
                 </tr>
 
                 <tr>
-                    <td colspan="2"><button class="btn btn-danger m-1 btn-lg ">Eliminar</button></td>
-                    <td><button class="btn btn-primary m-1 btn-lg ">=</button></td>
-                    <td><button class="btn btn-dark m-1 btn-lg "> ÷ </button></td>
+                    <td><button class="btn btn-danger m-1 btn-lg " value="Eliminar">C</button></td>
+                    <td><button class="btn btn-primary m-1 btn-lg " value="=">=</button></td>
+                    <td><button class="btn btn-secondary m-1 btn-lg signo" value="."> . </button></td>
+                    <td><button class="btn btn-dark m-1 btn-lg " id="division" value="÷"> ÷ </button></td>
                 </tr>
-
             </div>
+        </table>
    
     </main>     
     
